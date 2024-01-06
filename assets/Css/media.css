@@ -1,0 +1,90 @@
+@media(max-width:678px){
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        text-align: center;
+    }
+    .header>nav>ul>li{
+        display: block;
+    }
+    .sign-up{
+        margin: 10px 0;
+    }
+    .login{
+        margin: 10px 0;
+    }
+
+    /* Banner - 1  */
+    .banner1{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner1>.empty{
+        width: 100%;
+    }
+    .banner1>.business{
+        width: 100%;
+    }
+    .banner1>.business>.account{
+        float: none;
+    }
+
+    /* Banner2 */
+    .banner2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .banner2>.empty{
+        width: 100%;
+    }
+    .banner2>.business{
+        width: 100%;
+    }
+
+    /* Banner3 */
+    .banner3{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    }
+    .banner3>.empty{
+        width: 100%;
+    }
+    .banner3>.business{
+        width: 100%;
+    }
+    .banner3>.business>.account{
+        float: none;
+    }
+
+    .input_field{
+        padding: 50px , 20px;
+    }
+
+    .main-card>.card{
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer>div{
+        padding: 10px;
+    }
+}
+@media(min-width:679px) and (max-width:1200px){
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        text-align: center;
+    }
+}
