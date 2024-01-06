@@ -1,4 +1,4 @@
-@media(max-width:678px){
+@media(max-width:768px){
     .header{
         display: flex;
         align-items: center;
@@ -79,7 +79,7 @@
         padding: 10px;
     }
 }
-@media(min-width:679px) and (max-width:1200px){
+@media(min-width:769px) and (max-width:1200px){
     .header{
         display: flex;
         align-items: center;
