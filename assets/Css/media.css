@@ -28,6 +28,7 @@
     }
     .banner1>.business{
         width: 100%;
+        margin-top: 10px;
     }
     .banner1>.business>.account{
         float: none;
@@ -59,6 +60,7 @@
     }
     .banner3>.business{
         width: 100%;
+        margin-top: 15px;
     }
     .banner3>.business>.account{
         float: none;
@@ -86,5 +88,14 @@
         justify-content: center;
         flex-flow: column;
         text-align: center;
+    }
+    .banner1>.business{
+        padding-left: 20px;
+    }
+    .banner2>.business{
+        padding-right: 20px;
+    }
+    .banner3>.business{
+        padding-left: 20px;
     }
 }
